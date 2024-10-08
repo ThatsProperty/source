@@ -13,8 +13,6 @@
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
 
-
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
   <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -174,33 +172,46 @@
       <p class="lead">
         <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
       </p>
-
+      <!-- Example Audio-->
       <div>
         <h2>Example Podcasts</h2>
 
         <!-- First Audio Item -->
-        <div class="audio-item">
+        <div>
           <audio id="audio1" src="audio/NE716JN.mp3" controls></audio>
           <div class="audio-label">NE71 6JN</div>
         </div>
 
         <!-- Second Audio Item -->
-        <div class="audio-item">
+        <div>
           <audio id="audio2" src="audio/CR04TD.mp3" controls></audio>
           <div class="audio-label">CR0 4TD</div>
         </div>
 
         <!-- Third Audio Item -->
-        <div class="audio-item">
+        <div>
           <audio id="audio3" src="audio/NG53EH.mp3" controls></audio>
           <div class="audio-label">NG5 3EH</div>
         </div>
       </div>
+
+      <!-- Stripe-->
+      <div>
+        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+        <stripe-pricing-table pricing-table-id="prctbl_1Q7aGfRrKVf6n1SAXjjE6p0a"
+          publishable-key="pk_test_51Q5RHGRrKVf6n1SAY01Cujh3d4oek72nfRstQ6d8DQZJfo6QaoccK6gUOcwSOYfaXqqCoqGndbAuSiF9ASES5XFi00KozEpYRn">
+        </stripe-pricing-table>
+      </div>
+
+
+      <footer class="mt-auto text-white-50">
+        <p>&copy; <a href="https://interition.ai/" class="text-white">INTERITION</a> &reg;, 2024 -.</p>
+      </footer>
+
     </main>
 
-    <footer class="mt-auto text-white-50">
-      <p>&copy; <a href="https://interition.ai/" class="text-white">INTERITION</a> &reg;, 2024 -.</p>
-    </footer>
+
+
   </div>
   <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
